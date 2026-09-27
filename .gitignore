@@ -1,0 +1,10 @@
+# Oracle / SQL*Plus generated files
+*.log
+*.lst
+*.trc
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
