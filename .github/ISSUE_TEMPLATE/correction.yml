@@ -1,0 +1,23 @@
+name: Practical correction
+description: Report an issue in a SQL or PL/SQL practical
+title: "[Correction]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Practical file or unit
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Incorrect or unclear behavior
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+    validations:
+      required: false
