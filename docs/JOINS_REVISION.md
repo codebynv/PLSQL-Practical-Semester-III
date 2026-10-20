@@ -1,17 +1,9 @@
 # SQL Joins Revision
 
-## INNER JOIN
-Returns rows with matching values in both tables.
+- INNER JOIN returns rows matching the join condition.
+- LEFT JOIN retains every row from the left side.
+- RIGHT JOIN retains every row from the right side.
+- FULL OUTER JOIN retains matched and unmatched rows from both sides where supported.
+- CROSS JOIN produces combinations of rows.
 
-## LEFT JOIN
-Returns every row from the left table and matching rows from the right, with NULLs when no match exists.
-
-## RIGHT JOIN
-Returns every row from the right table and matching rows from the left.
-
-## Revision practice
-
-- Identify the relationship between tables.
-- Qualify columns when names overlap.
-- Check whether unmatched rows should remain.
-- Verify row counts with a small example.
+Use explicit JOIN syntax and verify results with small tables that include unmatched keys.
